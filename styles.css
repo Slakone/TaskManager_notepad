@@ -1,0 +1,79 @@
+/* Styles for the Task Manager Web App */
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f0d478; /* Yellowish background color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f0d478;
+    padding: 20px;
+    border: 2px solid #553608; /* Darker border color */
+    border-radius: 10px; /* Adds circular edges */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #553608;
+}
+
+.task-form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    flex: 1;
+    padding: 10px;
+    background-color:#f0d478;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 5px;
+    border: 1px solid #553608;
+}
+
+#add-task {
+    padding: 10px 20px;
+    background-color: #553608;
+    color: #f0d478;
+    border: none;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items:  center;
+    color: #362204;
+    padding: 5px;
+    border-bottom: 1px dotted #553608;
+    font-family: 'Bradley Hand', cursive, sans-serif; 
+    font-weight: bold;
+}
+.delete-task {
+    background-color: #ff0000; /* Change the background color to red */
+    color: #362204; /* Change the text color to white */
+    padding: 5px 10px; /* Adjust padding for the button */
+    border: none; /* Remove the button border */
+    border-radius: 3px; /* Add some border radius for rounded corners */
+    cursor: pointer;
+}
+
+
+
+.complete {
+    text-decoration: line-through;
+    color: #ff0000;
+}
